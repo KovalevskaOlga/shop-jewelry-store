@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/KovalevskaOlga/shop-jewelry-store/issues"
   },
-  "homepage": "https://github.com/KovalevskaOlga/shop-jewelry-store#readme",
+  "homepage": "https://kovalevskaolga.github.io/shop-jewelry-store/",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.14.4"
