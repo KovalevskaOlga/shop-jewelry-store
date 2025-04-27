@@ -1,0 +1,31 @@
+{
+  "name": "shop-jewelry-store",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KovalevskaOlga/shop-jewelry-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KovalevskaOlga/shop-jewelry-store/issues"
+  },
+  "homepage": "https://github.com/KovalevskaOlga/shop-jewelry-store#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.14.4"
+  },
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  }
+}
